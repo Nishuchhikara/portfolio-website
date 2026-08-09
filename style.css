@@ -1,0 +1,105 @@
+body {
+  background-color: #0F1117;
+  color: #E4E6EB;
+}
+
+.navbar {
+  background-color: #14161F !important;
+  border-bottom: 1px solid #262936;
+}
+
+section {
+  padding-top: 20px;
+}
+
+#about h2, #skills h2, #projects h2, #contact h2 {
+  color: #FFFFFF;
+  font-weight: 700;
+  margin-bottom: 24px;
+  position: relative;
+}
+
+#about p, #skills li, #contact p {
+  color: #B0B3BC;
+}
+
+#skills li {
+  list-style: none;
+  background: #1A1D27;
+  padding: 10px 16px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  border-left: 3px solid #8B5CF6;
+}
+
+.card {
+  background-color: #1A1D27;
+  border: 1px solid #262936;
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.4);
+}
+
+.card-title {
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+.card-text {
+  color: #A0A3AD;
+}
+
+/* Colorful accent per project card */
+.col-md-4:nth-of-type(1) .card,
+.col-md-6:nth-of-type(1) .card {
+  border-top: 4px solid #8B5CF6;
+}
+
+.col-md-4:nth-of-type(2) .card,
+.col-md-6:nth-of-type(2) .card {
+  border-top: 4px solid #14B8A6;
+}
+
+.col-md-4:nth-of-type(3) .card {
+  border-top: 4px solid #F59E0B;
+}
+
+.col-md-4:nth-of-type(4) .card {
+  border-top: 4px solid #EC4899;
+}
+
+.btn-primary {
+  background-color: #8B5CF6;
+  border-color: #8B5CF6;
+  font-weight: 500;
+}
+
+.btn-primary:hover {
+  background-color: #7C3AED;
+  border-color: #7C3AED;
+}
+
+.btn-secondary {
+  background-color: #14B8A6;
+  border-color: #14B8A6;
+  color: #0F1117;
+  font-weight: 500;
+}
+
+.btn-secondary:hover {
+  background-color: #0D9488;
+  border-color: #0D9488;
+  color: white;
+}
+
+a {
+  color: #8B5CF6;
+}
+
+a:hover {
+  color: #14B8A6;
+}
